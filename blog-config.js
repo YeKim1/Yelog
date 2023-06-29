@@ -2,7 +2,7 @@ module.exports = {
   title: "Yelog",
   description: "개발하는 농담곰",
   author: "YeDamGom",
-  siteUrl: "https://devhudi.github.io/gatsby-starter-hoodie/",
+  siteUrl: "https://yelog.netlify.app/",
   links: {
     github: "https://github.com/YeKim1",
     linkedIn: "https://linkedin.com",
@@ -11,7 +11,7 @@ module.exports = {
     email: "mailto:kjk87801@gmail.com",
   },
   utterances: {
-    repo: "devHudi/gatsby-starter-hoodie",
+    repo: "Yekim1/Yelog",
     type: "pathname",
   },
 }
