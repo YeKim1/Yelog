@@ -1,6 +1,7 @@
 ---
 title: "[Django] Postman에서 로그인을 테스트 해봅시다"
 date: 2023-06-30 02:00:00
+update: 2023-06-30 02:00:00
 tags:
   - Django
 series: "멋쟁이사자처럼 해커톤 가이드"
