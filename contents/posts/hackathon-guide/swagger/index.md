@@ -94,7 +94,8 @@ class Q1(APIView):
         )
         def post(self, request):
 ```
-@swagger_auto_schema로 swagger의 세부 내용을 설정해줄 수 있습니다
+함수에 @swagger_auto_schema 데코레이터를 달아서 swagger의 세부 내용을 설정해줄 수 있습니다
+
 
 ![](image-5.png)
 
