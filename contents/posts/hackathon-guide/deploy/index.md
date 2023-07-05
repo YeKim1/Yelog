@@ -11,8 +11,6 @@ series: "멋쟁이사자처럼 해커톤 가이드"
 
 **막히면 언제든지 저한테 갠톡 주세요**
 
-# 서버 생성
-
 ## 네이버 클라우드 회원가입 & 크레딧 지급
 
 https://www.ncloud.com/
@@ -40,8 +38,8 @@ base로 선택하는 이유는 Micro 타입이 base에서만 사용이 가능하
 
 (해커톤 진행할 때는 Micro로도 충분할 거예요)
 
-![VPC](image-6.png) | ![Subnet](image-7.png)
----|---|
+![VPC](image-6.png) 
+![Subnet](image-7.png)
 
 VPC랑 Subnet도 만들어서 설정해주고
 
@@ -58,9 +56,9 @@ VPC랑 Subnet도 만들어서 설정해주고
 
 상태가 초록불이 될 때까지 기다리세요
 
-# 장고 프로젝트 설정
+## 장고 프로젝트 설정
 
-기다리면서 Docker에 프로젝트를 넣어봅시다
+기다리면서 프로젝트를 설정합시다
 
 ![참고](image-10.png)
 
@@ -90,9 +88,6 @@ CMD ["gunicorn", "--bind", "0.0.0.0:8000", "[프로젝트 이름].wsgi:applicati
 원래 허용하고 싶은 안전한 IP 주소만 추가해야 하지만 저는 귀찮으니까 다 열겠습니다
 
 4. ```git push```
-
-
-# 서버
 
 ## 서버 포트 허용
 
@@ -178,7 +173,7 @@ Dockerfile이 있는 경로로 이동해서 진행합니다
 
 귀찮지만 다른 방법은 더 귀찮더라고요
 
-# 도메인 설정
+## 도메인 설정
 
 [내도메인](https://xn--220b31d95hq8o.xn--3e0b707e/)에서 로그인하고 도메인을 받습니다
 
@@ -207,7 +202,7 @@ i 누르고 편집 상태로 들어가서 작성 후, esc 누르고 ```:wq``` �
 4. ```sudo rm /etc/nginx/sites-enable/default```
 5. sudo systemctl restart nginx
 
-# HTTPS 설정
+## HTTPS 설정
 
 http는 보안 인증이 안 되어 있기 때문에 프론트랑 통신할 때 에러가 발생합니다
 
