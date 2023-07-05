@@ -69,6 +69,7 @@ VPC랑 Subnet도 만들어서 설정해주고
 1. 터미널에 ```pip freeze > requirements.txt``` 를 입력해서 설치된 라이브러리를 txt 파일로 출력합니다
 
 2. ```Dockerfile```을 생성하고 아래 내용을 입력해주세요
+
 ```
 FROM python:3
 WORKDIR /usr/src/app
