@@ -201,7 +201,7 @@ server {
 i 누르고 편집 상태로 들어가서 작성 후, esc 누르고 ```:wq``` 입력하시면 됩니당
 
 4. ```sudo rm /etc/nginx/sites-enable/default```
-5. sudo systemctl restart nginx
+5. ```sudo systemctl restart nginx```
 
 ## HTTPS 설정
 
