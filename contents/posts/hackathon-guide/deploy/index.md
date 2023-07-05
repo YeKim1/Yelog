@@ -28,7 +28,7 @@ https://www.ncloud.com/
 ![](image-5.png)
 서버 이미지는 Ubuntu, base로 선택해주세요!
 
-![Alt text](image-4.png)
+![](image-4.png)
 
 base로 선택하는 이유는 Micro 타입이 base에서만 사용이 가능하기 때문인데.. 
 
@@ -190,7 +190,7 @@ Dockerfile이 있는 경로로 이동해서 진행합니다
 ```
 server {
     listen 80;
-    server_name : [도메인]
+    server_name [도메인]
 
     location / {
         include proxy_params;
