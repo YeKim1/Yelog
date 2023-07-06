@@ -11,6 +11,8 @@ series: "멋쟁이사자처럼 해커톤 가이드"
 
 **막히면 언제든지 저한테 갠톡 주세요**
 
+**7/11~7/14는 카톡 저녁에만 확인 가능합니다.. 급하면 백엔드 단톡방에 질문 궈궈**
+
 ## 네이버 클라우드 회원가입 & 크레딧 지급
 
 https://www.ncloud.com/
@@ -185,7 +187,7 @@ Dockerfile이 있는 경로로 이동해서 진행합니다
 \+ 누르고 www 추가해서도 하나 적어주세요
 
 1. nginx 설치: ```sudo apt install -y nginx```
-2. ```vi /etc/nginx/sites-enable/[프로젝트 이름]```
+2. ```vi /etc/nginx/sites-enabled/[프로젝트 이름]```
 3. 아래 내용 입력
 ```
 server {
@@ -200,7 +202,7 @@ server {
 ```
 i 누르고 편집 상태로 들어가서 작성 후, esc 누르고 ```:wq``` 입력하시면 됩니당
 
-4. ```sudo rm /etc/nginx/sites-enable/default```
+4. ```sudo rm /etc/nginx/sites-enabled/default```
 5. ```sudo systemctl restart nginx```
 
 ## HTTPS 설정
