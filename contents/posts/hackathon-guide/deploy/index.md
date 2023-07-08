@@ -192,7 +192,7 @@ Dockerfile이 있는 경로로 이동해서 진행합니다
 ```
 server {
     listen 80;
-    server_name [도메인]
+    server_name [도메인];
 
     location / {
         include proxy_params;
