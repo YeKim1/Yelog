@@ -18,7 +18,7 @@ series: "멋쟁이사자처럼 해커톤 가이드"
 
 세 번동안 로그인 유지를 나도 실패하고 남도 실패하는 걸 보고 오기가 생겨서 해결해 본 로그인 유지!!!
 
-[Session & Cookie란 무엇인가](!https://yelog.netlify.app/Postman-Test/)
+[Session & Cookie란 무엇인가](/Postman-Test/)
 
 로그인을 JWT로 구현한다면 다른 방법으로 (어쩌면 더 쉽게??) 유지할 수 있겠지만 날 무릎 꿇린 Session에게 복수하기 위해 Session으로 진행 ㅡㅡ 캭
 
