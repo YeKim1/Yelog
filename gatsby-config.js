@@ -12,7 +12,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-robots-txt`,
-    'gatsby-plugin-sitemap',
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-react-redux`,
       options: {
