@@ -13,7 +13,6 @@ module.exports = {
     `gatsby-plugin-catch-links`,
     `gatsby-plugin-robots-txt`,
     'gatsby-plugin-sitemap',
-    'gatsby-plugin-netlify',
     {
       resolve: `gatsby-plugin-react-redux`,
       options: {
