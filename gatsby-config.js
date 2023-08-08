@@ -11,7 +11,14 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-catch-links`,
-    `gatsby-plugin-robots-txt`,
+    {
+      resolve: 'gastby-plugin-robots-txt',
+      options: {
+        host: 'https://yelog.netlify.app/',
+        sitemap: 'https://yelog/netlify.app/sitemap-pages.xml',
+        policy:[{userAgent: '*', allow: '/'}],
+      },
+    },
     `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-react-redux`,
