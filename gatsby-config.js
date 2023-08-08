@@ -12,7 +12,7 @@ module.exports = {
   plugins: [
     `gatsby-plugin-catch-links`,
     {
-      resolve: 'gastby-plugin-robots-txt',
+      resolve: 'gatsby-plugin-robots-txt',
       options: {
         host: 'https://yelog.netlify.app/',
         sitemap: 'https://yelog/netlify.app/sitemap-pages.xml',
