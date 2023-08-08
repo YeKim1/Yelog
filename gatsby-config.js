@@ -123,13 +123,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-resolve-src`,
-    module.exports = {
-      siteMetadata: {
-        siteUrl: `https://yelog.netlify.app`,
-      },
-      plugins: [`gatsby-plugin-sitemap`],
-
-    },
+    `gatsby-plugin-sitemap`,
     {
       resolve: `gatsby-plugin-feed`,
       options: {
