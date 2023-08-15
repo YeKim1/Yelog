@@ -62,7 +62,7 @@
   "license": "MIT",
   "main": "n/a",
   "scripts": {
-    "build": "gatsby build && cp google5d650f9c0796d047.html public/",
+    "build": "gatsby build && cp google5d650f9c0796d047.html public/ && cp naver6e4553970766df72d3238093e491f2e1.html public/",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "npm run develop",
