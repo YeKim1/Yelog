@@ -1,7 +1,7 @@
 module.exports = {
   title: "Yelog",
   description: "개발하는 농담곰",
-  author: "YeDamGom",
+  author: "NongDamGom",
   siteUrl: "https://yelog.site/",
   links: {
     github: "https://github.com/Yekim1",
