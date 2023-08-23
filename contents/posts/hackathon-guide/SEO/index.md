@@ -18,7 +18,7 @@ Gatsby 블로그를 구글 서치 콘솔에 등록하는 과정에서, 위 사�
 
 따라해 본 방법들은 아래와 같다(=**삽질 과정**)
 
-1. /sitemap.xml을 삭제하고 //sitemap.xml 또는 /sitemap.xml/로 재동륵하기
+1. /sitemap.xml을 삭제하고 //sitemap.xml 또는 /sitemap.xml/로 재등록하기
 
 : //sitemap.xml은 /sitemap.xml과 동일하게 변경되어 등록되어 의미 없는 것 같았으며 /sitemap.xml/은 올바른 xml 링크가 아니었다
 
