@@ -14,7 +14,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        host: 'https://yelog.netlify.app/',
+        host: 'https://yelog.site/',
         sitemap: 'https://yelog.site/sitemap-pages.xml',
         policy:[{userAgent: '*', allow: '/'}],
       },
