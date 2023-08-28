@@ -6,6 +6,7 @@ tags:
   - spring
   - docker
   - deploy
+series: "효율적인 LoadBalancing 구현 수난기"
 ---
 
 ## 개요
