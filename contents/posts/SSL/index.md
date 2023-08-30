@@ -70,3 +70,5 @@ certbot certonly --manual -d *.example.com -d example.com --preferred-challenges
 >/etc/letsencrypt/live/example.com
 
 여기서 인증서 파일을 확인할 수 있다
+
+pem 파일을 클라우드에 옮겨서 인증서를 저장하고 로드밸런싱으로 적용할 수 있다
