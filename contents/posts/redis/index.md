@@ -1,7 +1,7 @@
 ---
 title: "Redis Tour with GDB 후기"
-date: 2023-10-08 22:00:00
-update: 2023-10-08 22:00:00
+date: 2023-10-03 22:00:00
+update: 2023-10-03 22:00:00
 tags:
   - Redis
   - GDB
