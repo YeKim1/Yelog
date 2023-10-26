@@ -11,6 +11,7 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-catch-links`,
+    `gatsby-plugin-remove-trailling-slashes`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
@@ -186,5 +187,4 @@ module.exports = {
       },
     },
   ],
-  trailingSlash: "always"
 }
