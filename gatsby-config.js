@@ -9,7 +9,6 @@ module.exports = {
     author,
     siteUrl,
   },
-  trailingSlash: "always",
   plugins: [
     `gatsby-plugin-catch-links`,
     {
@@ -187,4 +186,5 @@ module.exports = {
       },
     },
   ],
+  trailingSlash: "always"
 }
