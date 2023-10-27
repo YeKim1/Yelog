@@ -186,5 +186,4 @@ module.exports = {
       },
     },
   ],
-  trailingSlash: "always",
 }
