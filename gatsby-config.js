@@ -19,7 +19,6 @@ module.exports = {
         policy:[{userAgent: '*', allow: '/'}],
       },
     },
-    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: `gatsby-plugin-react-redux`,
       options: {
