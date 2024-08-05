@@ -1,7 +1,7 @@
 ---
 title: "[Spring] Springboot에서 CI/CD 적용하기 (with. Github Actions, Docekr)"
-date: 2023-08-24 20:00:00
-update: 2023-08-24 20:00:00
+date: 2024-08-06 20:00:00
+update: 2024-08-06 20:00:00
 tags:
   - Github Actions
   - docker
