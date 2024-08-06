@@ -1,5 +1,5 @@
 ---
-title: "[Spring] Springboot에서 CI/CD 적용하기 (with. Github Actions, Docekr)"
+title: "[CI/CD] 무엇이며 왜 쓰는 것이며 어떻게 쓰는가?"
 date: 2024-08-06 20:00:00
 update: 2024-08-06 20:00:00
 tags:
