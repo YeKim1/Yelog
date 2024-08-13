@@ -1,5 +1,5 @@
 ---
-title: "[vim] E388: Couldn't find definition 에러 해결"
+title: "E388: Couldn't find definition 에러 해결"
 date: 2023-08-23 15:00:00
 update: 2023-08-23 15:00:00
 tags:

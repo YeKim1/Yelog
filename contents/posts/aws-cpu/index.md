@@ -1,5 +1,5 @@
 ---
-title: "[AWS] EC2 CPU 100% 문제 해결"
+title: "EC2 CPU 100% 문제 해결"
 date: 2024-04-02 15:00:00
 update: 2024-04-02 15:00:00
 tags:

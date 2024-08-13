@@ -1,5 +1,5 @@
 ---
-title: "[Spring] 왜 Spring이어야 할까?"
+title: "왜 Spring이어야 할까?"
 date: 2024-08-07 20:00:00
 update: 2024-08-07 20:00:00
 tags:

@@ -1,9 +1,9 @@
 ---
-title: "AWS EC2 환경에서 Spring Project 배포하기"
+title: "AWS EC2 환경에서 SpringBoot Project 배포하기"
 date: 2024-03-27 15:00:00
 update: 2024-03-27 15:00:00
 tags:
-  - Spring
+  - SpringBoot
   - 배포
   - AWS
 ---
