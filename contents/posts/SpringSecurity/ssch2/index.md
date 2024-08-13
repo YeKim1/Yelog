@@ -255,7 +255,7 @@ public class JwtTokenAuthFilter extends GenericFilterBean {
 
 **resolveToken**은 요청의 헤더에서 토큰을 꺼내 접두어(Bearer)를 제외하고 추출하는 메서드다.
 
- ## SpringConfig
+ ## SecurityConfig
 
 #### java.Project.config.SecurityConfig
  ```
@@ -348,10 +348,6 @@ sessionManagement(c -> c.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
 **Authentication**: ID/PWD의 유효성을 검사하고 인증을 수행하여 사용자의 인증 정보를 포함한 객체를 생성한다.
 
 마지막으로, authentication 객체를 기반으로 토큰을 생성하여 반환한다.
-
-## 전체 코드
-
-[Github Repository]()에서 확인 가능하다.
 
 ## 후기
 
