@@ -1,11 +1,12 @@
 ---
-title: "Redis Tour with GDB 후기"
+title: "Redis Tour with GDB"
 date: 2023-10-03 22:00:00
 update: 2023-10-03 22:00:00
 tags:
   - Redis
   - GDB
-  - Debug
+  - Debugging
+series: "Redis"
 ---
 
 ## 개요
